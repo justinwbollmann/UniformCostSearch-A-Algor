@@ -4,7 +4,7 @@ import math
 class node:
     def __init__(self, array, previous):
         self.data = array[:]
-        self.blankLocation = array.index(0)
+        self.empty = array.index(0)
         self.north = None
         self.south = None
         self.west = None
