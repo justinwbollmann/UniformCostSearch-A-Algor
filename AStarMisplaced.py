@@ -87,7 +87,7 @@ def aStarAlgor(array):
                 
             #Swaps top row to other row
             if not 0 in unknown2[0][2].input[0:3]: 
-                #copy above value noth to blank
+                #copy above value north to blank
                 order[unknown2[0][2].empty] = unknown2[0][2].input[unknown2[0][2].empty - 3] 
                 order[unknown2[0][2].empty - 3] = 0 
                 #checks if nodes hasnt been known, adds child node into queue if it has.
