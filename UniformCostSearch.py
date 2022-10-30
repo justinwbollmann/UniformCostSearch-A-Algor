@@ -20,13 +20,13 @@ def uniformCostSearchAlgo(array):
             print("Unknown.")
             keepGoing = True
         elif unknown[0][2].input == endState:
-            print("Nodes expanded: " + str(nodesExpanded))
-            print("Max queue: " + str(maxQ))
             print("Solution depth was: " + (str(howDeep(unknown[0][2]))))
-            print("Goal State!")
+            print("Nodes expanded: " + str(nodesExpanded))
+            print("Max queue: " + str(maxQ))            
             print(unknown[0][2].input[0:3])
             print(unknown[0][2].input[3:6])
             print(unknown[0][2].input[6:9])
+            print("Goal State!")
             keepGoing = True
         
         #find data within array node when expanded
