@@ -72,7 +72,7 @@ def uniformCostSearchAlgo(array):
                 if not weKnow:
                     level =  howDeep(unknown[0][2]) + 1
                     tracker += 1
-                    unknown.append((level, tracker, node(order, unknown[0][2]))) #create new node with order 2d array and push to the back of the unknown
+                    unknown.append((level, tracker, node(order, unknown[0][2]))) 
                 weKnow = False
                 print(order)
                 order = unknown[0][2].input[:]
