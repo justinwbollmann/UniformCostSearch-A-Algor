@@ -44,7 +44,6 @@ def aStarAlgor(array):
         if(len(unknown2) > maxQ2):
             maxQ2 = len(unknown2)
         if len(unknown2) == 0:
-            print("Unknown.")
             keepGoing2 = True
         elif unknown2[0][2].input == endState2:
             print("Solution depth was: " + (str(howDeep(unknown2[0][2]))))
@@ -59,7 +58,6 @@ def aStarAlgor(array):
             numNodesExpand += 1
             order = []
             order = unknown2[0][2].input[:]
-            print("Unknown")
             for x in unknown2:
                 print(x[2].input)
 
