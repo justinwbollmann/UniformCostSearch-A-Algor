@@ -22,7 +22,7 @@ def uniformCostSearchAlgo(array):
             print("Nodes expanded: " + str(nodesExpanded))
             print("Max queue: " + str(maxQ))
             print("Solution depth was: " + (str(howDeep(unknown[0][2]))))
-            print("Puzzle Solved:")
+            print("Goal State!")
             print(unknown[0][2].input[0:3])
             print(unknown[0][2].input[3:6])
             print(unknown[0][2].input[6:9])
